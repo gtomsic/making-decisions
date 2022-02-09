@@ -6,22 +6,40 @@
   If it is not, console log "Coding has its challenges."
 */
 
+var loveCode = true;
+
+if (loveCode === true) {
+  console.log('I love to code');
+} else {
+  console.log('Coding has its challenges.');
+}
+
 //CODE HERE
 
 // For problems 2-3 use the following lines of code:
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
+var amysAge = 29;
+var brittanisAge = 34;
+var amysBirthYear = 1991;
+var brittanisBirthYear = 1986;
 
 ////////// PROBLEM 2 //////////
 
 /*
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
+// if (amysAge > brittanisAge) {
+//   console.log(
+//     `Amy age ${amysAge} is older than Bristannis age ${brittanisAge} `
+//   );
+// } else if (amysAge < brittanisAge) {
+//   console.log(
+//     `Amay age ${amysAge} is younger than Brittanis age ${brittanisAge} `
+//   );
+// } else if (amysAge === brittanisAge) {
+//   console.log(`Amy and britanny is same age`);
+// }
 
 //CODE HERE
-
 
 ////////// PROBLEM 3 //////////
 
@@ -31,11 +49,10 @@ var brittanisBirthYear = 1986
 
 //CODE HERE
 
-
 ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = true
+let temperature = 55;
+let rain = true;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -43,7 +60,6 @@ let rain = true
 */
 
 //CODE HERE
-
 
 ////////// PROBLEM 5 //////////
 
@@ -53,7 +69,6 @@ let rain = true
 
 //CODE HERE
 
-
 ////////// PROBLEM 6 //////////
 
 /*
@@ -61,7 +76,6 @@ let rain = true
 */
 
 //CODE HERE
-
 
 ////////// PROBLEM 7 //////////
 
@@ -71,8 +85,8 @@ let rain = true
 
 //CODE HERE
 
-let score = 0
-let passingScore = 7
+let score = 0;
+let passingScore = 7;
 
 ////////// PROBLEM 8 //////////
 
@@ -98,13 +112,11 @@ let passingScore = 7
 
 //CODE HERE
 
-
-
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
 
-let z = 5
+let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
