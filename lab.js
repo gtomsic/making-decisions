@@ -136,10 +136,10 @@ while (passingScore !== 0) {
 */
 
 // //CODE HERE
-// var changeMyMind = true;
-// if (changeMyMind) {
-//   changeMyMind = !changeMyMind;
-// }
+var changeMyMind = true;
+if (changeMyMind) {
+  changeMyMind = !changeMyMind;
+}
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
