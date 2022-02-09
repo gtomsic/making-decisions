@@ -27,17 +27,17 @@ var brittanisBirthYear = 1986;
 /*
   Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
 */
-// if (amysAge > brittanisAge) {
-//   console.log(
-//     `Amy age ${amysAge} is older than Bristannis age ${brittanisAge} `
-//   );
-// } else if (amysAge < brittanisAge) {
-//   console.log(
-//     `Amay age ${amysAge} is younger than Brittanis age ${brittanisAge} `
-//   );
-// } else if (amysAge === brittanisAge) {
-//   console.log(`Amy and britanny is same age`);
-// }
+if (amysAge > brittanisAge) {
+  console.log(
+    `Amy age ${amysAge} is older than Bristannis age ${brittanisAge} `
+  );
+} else if (amysAge < brittanisAge) {
+  console.log(
+    `Amay age ${amysAge} is younger than Brittanis age ${brittanisAge} `
+  );
+} else if (amysAge === brittanisAge) {
+  console.log(`Amy and britanny is same age`);
+}
 
 //CODE HERE
 
