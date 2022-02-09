@@ -29,14 +29,14 @@ var brittanisBirthYear = 1986;
 */
 if (amysAge > brittanisAge) {
   console.log(
-    `Amy age ${amysAge} is older than Bristannis age ${brittanisAge} `
+    `Amy age ${amysAge} is older than Bristanni age ${brittanisAge} `
   );
 } else if (amysAge < brittanisAge) {
   console.log(
-    `Amay age ${amysAge} is younger than Brittanis age ${brittanisAge} `
+    `Amay age ${amysAge} is younger than Brittani age ${brittanisAge} `
   );
 } else if (amysAge === brittanisAge) {
-  console.log(`Amy and britanny is same age`);
+  console.log(`Amy and Britanni were same age`);
 }
 
 //CODE HERE
@@ -65,6 +65,17 @@ let rain = true;
 */
 
 //CODE HERE
+if (temperature >= 80 && rain) {
+  console.log(`It's raining, one should wear a t-shirt and take an umbrella.`);
+} else if (temperature >= 60 && temperature <= 80 && rain) {
+  console.log(`You should wear a rain-jacket.`);
+} else if (temperature < 60 && rain) {
+  console.log(`You should wear a jacket and carry an umbrella.`);
+} else if (temperature < 60 && !rain) {
+  console.log(`You should wear winter clothing.`);
+} else {
+  console.log(`It's a wonderful day you can wear anything.`);
+}
 
 ////////// PROBLEM 5 //////////
 
